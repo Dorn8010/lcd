@@ -1,7 +1,8 @@
 # lcd - Library-based Change Directory
 Usage: lcd [options] <directory_name_or_fragment>
 
-A system wide scan library based cd (Library Change Directory) with a small, fast and simple application. On first start, a library of the directory (can be changed via parameters) tree starting from the home directory will be created. A bash and GO version is available for Linux and MacOS.
+A CLI tool for a system wide directory-scan library based cd (Library-based Change Directory) in a small, fast and simple application. On first start, a library of the directory tree starting from the home directory (can be changed via parameters) will be created.</br>
+A bash and GO version of lcd are available for Linux and MacOS.
 
 ## Description</br>
   Fast directory navigation using a cached directory tree (~/.lcd-tree.txt).</br>
