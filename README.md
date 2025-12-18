@@ -31,3 +31,28 @@ Rescan all folders from the root directory : lcd --rescan --newbasedir /</br>
 ## Search Logic
   1. Searches for an Exact Match (case-insensitive) of the directory name.</br>
   2. If not found, searches for a Partial Match.</br>
+</br>
+
+### To compile for Linux
+```
+#install GO compiler - if not already installed (Ubuntu/apt)
+sudo apt install golang
+#compile and test run in directory
+go build -o lcd lcd.go
+./lcs --help
+#to install locally in sys
+sudo cp lcd /usr/local/bin/
+lcs --help
+```
+  
+### To compile for Mac</br>
+```
+#install GO compiler - if not already installed
+brew install go
+#compile and test run in directory
+go build -o lcd lcd.go
+./lcs --help
+#to install locally in sys
+sudo cp lcd /usr/local/bin/
+lcs --help
+```
